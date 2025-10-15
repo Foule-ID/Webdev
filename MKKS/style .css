@@ -1,0 +1,26 @@
+*,
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #FFFFFF;
+}
+
+.header-container {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.header-container-1 {
+    display: flex;
+    width: 20%;
+    height: 20%;
+}
+
+.logo-kuningan {
+    display: right;
+}

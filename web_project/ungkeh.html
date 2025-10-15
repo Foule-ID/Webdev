@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+      <h3>macam macam selector</h3>
+      <ol>
+        <li>id selector</li>
+        <P> selector yang menggunakan attribute ID  dan tanda (#) diawal pada cssnya</P>
+        <li>class selector</li>
+        <p>selector yang menggunakan attribute class dan tanda (.)pada awal cssnya</p>
+        <li>element/type selector</li>
+        <p>selector yang menggunakan nama element htmlnya</p>
+        <li>universal selector</li>
+        <p>selector yang menggunakan tanda bintang (*) pada cssnya</p>
+        <li>grouping selector</li>
+        <p>selector yang menggabungkan beberapa selector menjadi satu</p>
+        <p>contoh : h1, h2, p { color: blue; }</p>
+        <p>akan membuat semua elemen h1, h2, dan p berwarna biru</p>
+        <p>contoh : .class1, #id1 { font-size: 16px; }</p>
+        <p>akan membuat elemen dengan class "class1" dan id "id1" memiliki ukuran font 16px</p>
+        <p>contoh : div, span { margin: 10px; }</p>
+        <p>akan memberikan margin 10px pada semua elemen div dan span</p>
+        <li>attribute selector</li>
+        <p>selector yang memilih elemen berdasarkan atributnya</p>
+        <p>contoh : a[href] { color: red; }</p>
+        <p>akan membuat semua elemen <a> dengan atribut href berwarna merah</p>
+        <p>contoh : input[type="text"] { border: 1px solid black; }</p>
+        <p>akan memberikan border pada semua elemen input dengan tipe text</p>
+        <li>pseudo class selector</li>
+        <p>selector yang memilih elemen berdasarkan keadaan atau posisinya</p>
+        <p>contoh : a:hover { color: green; }</p>
+        <li>pseudo element selector</li>
+        <p>selector yang memilih bagian tertentu dari elemen</p>
+        <p>contoh : p::first-letter { font-size: 200%; }</p>
+        <p>akan membuat huruf pertama dari setiap paragraf berukuran 200%</p>
+        <p>contoh : div::before { content: "Note: "; color: blue; }</p>
+        <p>akan menambahkan teks "Note: " sebelum setiap elemen div dengan warna biru</p>
+        <p>contoh : li::after { content: " - item"; }</p>
+        <p>akan menambahkan teks " - item" setelah setiap elemen li</p>
+        <p>contoh : h1::first-line { text-transform: uppercase; }</p>
+        <p>akan mengubah semua huruf pada baris pertama dari setiap elemen h1 menjadi huruf kapital</p>
+        <p>contoh : blockquote::marker { color: gray; }</p>
+        <p>akan mengubah warna marker (tanda kutip) pada elemen blockquote menjadi abu-abu</p>
+        <li>combinator selector</li>
+        <p>selector yang menggabungkan beberapa elemen berdasarkan hubungannya</p>
+        <p>contoh : div > p { color: purple; }</p>
+        <p>akan membuat semua elemen p yang merupakan anak langsung dari elemen div berwarna ungu</p>
+        <p>contoh : ul li { list-style-type: square; }</p>
+        <p>akan mengubah jenis bullet pada semua elemen li yang berada di dalam elemen ul menjadi kotak</p>
+        <li>negation selector</li>
+        <p>selector yang memilih elemen yang tidak sesuai dengan kondisi tertentu</p>
+        <p>contoh : input:not([type="submit"]) { background-color: lightgray; }</p>
+        <p>akan memberikan latar belakang abu-abu muda pada semua elemen input kecuali yang bertipe submit</p>
+      </ol>
+</body>
+</html>
