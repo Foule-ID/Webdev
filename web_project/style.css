@@ -44,6 +44,11 @@ nav li {
   margin-right: 20px;
 }
 
+header{
+  display:inline;
+  
+}
+
 nav {
   text-align: center;
   margin-top: 20px;
@@ -51,6 +56,8 @@ nav {
   background-color: #290347;
   padding: 10px;
   border-radius: 8px;
+  position: sticky;
+  top: 0;
 }
 
 nav a {
