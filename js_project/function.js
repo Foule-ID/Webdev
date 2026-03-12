@@ -5,9 +5,11 @@ function salam(nama,mapel){
 
 // salam("Arhaqi","Javascript");
 
-function kelilingLingkaran(jariJari){
-   return 2 * 3.14 * jariJari;
-}
+// function kelilingLingkaran(jariJari){
+   // return 2 * 3.14 * jariJari;
+// }
+
+const kelilingLingkaran = (r) => 2 * 3.14 * r;
 
 let r = 3
 hasil = kelilingLingkaran(r);

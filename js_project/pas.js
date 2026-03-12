@@ -23,3 +23,5 @@ if (statusMember === true) {
   hargaAkhir = hargaSetelahDiskon;
   console.log(`Harga akhir : ${hargaAkhir}`);
 }
+
+
